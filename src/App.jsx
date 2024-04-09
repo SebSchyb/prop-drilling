@@ -16,8 +16,8 @@ function App() {
   };
   return (
     <>
-      <Header />
-      <ArticleList />
+      <Header username={data.username} email={data.email} />
+      <ArticleList articles={data.articles} />
       <Footer />
     </>
   );
