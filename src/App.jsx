@@ -18,7 +18,7 @@ function App() {
     <>
       <Header username={data.username} email={data.email} />
       <ArticleList articles={data.articles} />
-      <Footer />
+      <Footer email={data.contactInfo.email} />
     </>
   );
 }

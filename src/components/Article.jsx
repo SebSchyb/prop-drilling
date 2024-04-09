@@ -2,8 +2,8 @@ import Button from "./Button";
 function Article(props) {
   return (
     <article>
-      <h3>{props.articleheader}</h3>
-      <p>{props.articlecontent}</p>
+      <h3>{props.header}</h3>
+      <p>{props.content}</p>
       <Button />
     </article>
   );
